@@ -40,6 +40,7 @@ router.get('/:id/tweet',(req,res)=>{
 });
 
 
+//PARA CREAR UN TUIT XD
 router.post('/:id/tweet',jsonparser,(req,res)=>{
     const valores = req.body
     const {id} = req.params;
