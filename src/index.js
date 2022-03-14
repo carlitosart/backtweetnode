@@ -12,6 +12,8 @@ app.use(express.json());
 app.use(require('./routes/users'));
 
 
+
+
 //Starting the server
 app.listen(app.get('port'),()=>{
     console.log('Server on port',app.get('port'));
